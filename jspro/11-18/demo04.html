@@ -1,0 +1,23 @@
+<!<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>验证输入</title>
+    <script>
+        function verify() {
+            x = document.getElementById('num').value;
+            if (x == "" || isNaN(x)) {
+                alert("不是数字")
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>JacaScript验证输入</h1>
+    <input type="text" id="num">
+    <button type="button" onclick="verify()">验证</button>
+</body>
+
+</html>
