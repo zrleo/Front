@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>混合布局</title>
+	<style type="text/css">
+		.top{height: 100px;background: blue;}
+		.head{height: 100px;width: 800px;background: gray;margin: 0 auto}
+		.main{width: 800px;height: 500px;background: #ccc;margin: 0 auto;}
+		.left{width: 20%;height: 500px;background: green;float: left;}
+		.right{width: 80%;height: 500px;background: yellow;float: right;}
+		.right_l{width: 200px;height: 500px;background: orange;float: right}
+		.foot{width: 800px;height: 100px;background: red;margin: 0 auto;}
+
+	</style>
+</head>
+<body>
+<div class="top">页面头部
+    <div class="head"></div>
+</div>
+<div class="main">
+	<div class="left"></div>
+	<div class="right">
+		<div class="right_l"></div>
+	</div>
+</div>
+<div class="foot">页面底部</div>
+</body>
+</html>
