@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<!--遇到问题了，为什么把script放在body外边不能执行呢-->
+
+<head>
+    <meta charset="utf-8">
+    <title>如需从 JavaScript 访问某个 HTML 元素，</title>
+    <script>
+        function insert() {
+            var x = document.getElementById("demo");
+            x.innerHTML = "插入内容";
+        }
+    </script>
+</head>
+<body>
+    <h1>访问html元素，并插入元素内容</h1>
+    <p id="demo">段落用来插入元素</p>
+    <button type="button" onclick="insert()">点我改变p元素内容</button>
+
+</body>
+
+
+</html>
